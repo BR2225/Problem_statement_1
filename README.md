@@ -67,6 +67,10 @@ This product helps users manage thousands of container images that may include k
 •	Developers, DevOps, and Security can coordinate using shared data and tools.
 # Low-fidelity wireframes for the user interface for this product
 
+
+
+![Low-fidelity Wireframes](https://github.com/user-attachments/assets/d3201197-9fe6-4ed3-9d5e-a5281729e685)
+
 This Low-fidelity wireframe shows how users can easily monitor and manage vulnerabilities across thousands of container images. It starts with a clear dashboard that highlights key metrics like total scanned images and severity breakdowns. A table view lets users filter, search, and prioritize images based on risk. Clicking into an image reveals detailed vulnerability info, including CVE IDs, affected packages, and available fixes. The layout is simple and intuitive, using clean boxes and labels to focus on function over design. It guides users from identifying issues to acting—making vulnerability triage fast, understandable, and efficient.
 
 ## Identify development action items
