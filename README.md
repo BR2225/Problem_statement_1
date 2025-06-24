@@ -29,14 +29,14 @@ Total container images scanned
 Number of vulnerable images
 
 Breakdown of vulnerabilities by severity:
-
-Critical
-
-High
-
-Medium
-
-Low
+      
+      Critical
+      
+      High
+      
+      Medium
+      
+      Low
 
 B. 🗃️ Image Vulnerability Table
 A paginated table that includes:
