@@ -94,4 +94,29 @@ This Low-fidelity wireframe shows how users can easily monitor and manage vulner
   - Images table
   - Vulnerabilities table (linked by image ID)
 
+ Flow Diagram:
+![Low-fidelity Wireframes (1)](https://github.com/user-attachments/assets/9875b2b5-e963-4708-9307-bcefd1bcd50a)
+
+•	Container Registry Integration  
+→ Connects to Docker Hub, ECR, or GCR to automatically fetch your container images.  
+•	Vulnerability Scanning (Trivy, Clair, Grype)  
+→ Scans each image for known security issues using trusted open-source tools.  
+•	Scan Scheduler & History Tracking  
+→ Automatically scans images on a schedule and keeps a history of all past scans.  
+•	Backend API for Image & Vulnerability Data  
+→ Acts as the engine room, powering the UI and integrations with up-to-date scan results.  
+•	Role-Based Access Control (RBAC)  
+→ Ensures users only see and do what they’re allowed to, based on their role.  
+•	Frontend Dashboard  
+→ Lets users easily view, search, and understand vulnerabilities in their images.  
+•	Slack/Email Notifications  
+→ Sends alerts to your team when new critical vulnerabilities are found.  
+•	Export Endpoints (JSON/CSV)  
+→ Allows teams to download scan reports for audits, sharing, or offline use.  
+•	CI/CD Integration  
+→ Builds security into your development pipelines by scanning images before they go live.
+
+--------------------------------------------------------------------------------
+
+
 
