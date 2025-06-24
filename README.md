@@ -95,6 +95,7 @@ This Low-fidelity wireframe shows how users can easily monitor and manage vulner
   - Vulnerabilities table (linked by image ID)
 
  Flow Diagram:
+ 
 ![Low-fidelity Wireframes (1)](https://github.com/user-attachments/assets/9875b2b5-e963-4708-9307-bcefd1bcd50a)
 
 •	Container Registry Integration  
