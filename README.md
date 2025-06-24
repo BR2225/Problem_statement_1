@@ -22,47 +22,37 @@ Without a clear view of which images are affected and how severely, prioritizing
 
 🔄 Support bulk actions or integrations for fixing vulnerabilities.
 
-3. Key Features
-A. 📊 Dashboard View
-Total container images scanned
+## 🔑 Key Features
 
-Number of vulnerable images
+### 📊 Dashboard View
 
-Breakdown of vulnerabilities by severity:
-      
-      Critical
-      
-      High
-      
-      Medium
-      
-      Low
+- Total number of container images scanned
+- Number of vulnerable images
+- Breakdown of vulnerabilities by severity:
+  - Critical
+  - High
+  - Medium
+  - Low
 
-B. 🗃️ Image Vulnerability Table
+### 📋 Image Vulnerability Table
+
 A paginated table that includes:
 
-Image name and tag
+- **Image name and tag**
+- **Last scanned date**
+- **Number of vulnerabilities** (grouped by severity)
+- **Fix availability status**
 
-Last scanned date
+#### Filters
 
-Number of vulnerabilities (grouped by severity)
+- Severity
+- Fixable only
+- Scan date
+- Image name/tag
 
-Fix availability status
+#### Sorting Options
 
-Filters:
+- By image name
+- By number of vulnerabilities
+- By most vulnerable
 
-Severity
-
-Fixable only
-
-Scan date
-
-Image name/tag
-
-Sorting Options:
-
-Image name
-
-Most vulnerable
-
-Others as needed
